@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <style>
+      .hidden {
+      display: none;
+      }
+      
+      .backcolor{
+        background-color: rgba(117, 113, 113, 0.2);
+        color: white;
+      }
+      .backcolor *{
+        color: white;
+      }
+
+      
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    
+
+    <title>SmartLearn</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+  </head>
+
+<body>
+
+   
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>This is an educational <em>HTML CSS JAVASCRIPT</em> website.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                        SmartLearn
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li><a href="index.html" >Accueil</a></li>
+                          <li><a href="html.html" >HTML</a></li>
+                          <li><a href="csss.html" class="active">CSS</a></li>
+                          <li><a href="js.html">JAVA SCRIPT</a></li> 
+                          <li><a href="index.html">Contact Us</a></li> 
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <section class="heading-page header-text" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Below are our available HTML courses.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="meetings-page" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="filters">
+                <ul>
+                  <li><a onclick="toggleContent('button0')">Introduction to CSS</a></li>
+                  <li><a onclick="toggleContent('button1')">CSS Selectors</a></li>
+                  <li><a onclick="toggleContent('button2')">CSS Properties</a></li>
+                  <li><a onclick="toggleContent('button3')">CSS Units</a></li>
+                  <li><a onclick="toggleContent('button4')">Basic CSS Styles</a></li>
+                  <li><a onclick="toggleContent('button5')">Advanced CSS Styles</a></li>
+                  <li><a onclick="toggleContent('button6')">CSS Responsive</a></li>
+                  <li><a onclick="toggleContent('button7')">CSS grid</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+            
+                <div class="backcolor" id="element0">
+                  <p>CSS stands for Cascading Style Sheets, which is a style sheet language used to describe the presentation of a document written in HTML or XML. CSS is used to add styles, such as colors, layouts, and fonts, to web pages and other documents.</p>
+                  <h3>What is CSS?</h3>
+                  <p>CSS is a style sheet language that is used to describe the look and formatting of a document written in HTML or XML.</p>
+                  <h3>Why Use CSS?</h3>
+                  <p>CSS separates the presentation of a document from its structure, making it easier to change the appearance of a website without changing its content.</p>
+                  <h3>CSS Syntax</h3>
+                  <p>CSS syntax consists of a selector, followed by a declaration block containing one or more property-value pairs.</p>
+                 
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>selector {
+                    property: value;
+                  }</pre>
+                  <hr>
+                  
+                </div>
+                <div class="backcolor hidden" id="element1" >
+                  <p>CSS selectors are used to select and style HTML elements based on their tag name, class, ID, or other attributes.</p>
+                  <hr>
+                  <h5>Examples:</h5>
+                  <li>'h1' - selects all &lt;h1&gt; elements</li>
+                  <li>'.class' - selects all elements with `class="class"`</li>
+                  <li>'#id' - selects the element with `id="id"`</li>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element2">
+                  <p>CSS properties are used to define the style and appearance of HTML elements.</p>
+                  <hr>
+                  <h5>Examples:</h5>
+                  <li>'color' - sets the text color</li>
+                  <li>'background-color' - sets the background color</li>
+                  <li>'font-size' - sets the font size</li>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element3" >
+                  <p>CSS units are used to specify length, width, and other measurements in CSS.</p>
+                  <hr>
+                  <h5>Examples:</h5>
+                  <li>'px' - for pixels</li>
+                  <li>'%' - for percentage</li>
+                  <li>'em' - for relative font sizes</li>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element4" >
+                  <h3>Text Styles</h3>
+                  <p>To style text in CSS, you can use properties such as 'color', 'font-family', 'font-size', and 'text-align'.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>h1 {
+                    color: blue;
+                    font-family: Arial, sans-serif;
+                    font-size: 32px;
+                    text-align: center;
+                  }</pre>
+                      <hr>
+                      <h3>Box Styles</h3>
+                  <p>To style boxes in CSS, you can use properties such as 'width', 'height', 'background-color', and 'border'.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>.box {
+                    width: 300px;
+                    height: 200px;
+                    background-color: #f0f0f0;
+                    border: 1px solid #ccc;
+                  }</pre>
+                      <hr>
+                      <h3>Margin and Padding</h3>
+                  <p>Margin and padding are used to create space around an element in CSS.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>.box {
+                    margin: 20px;
+                    padding: 10px;
+                  }</pre>
+                      <hr>
+                      <h3>Display and Positioning</h3>
+                  <p>The 'display' property is used to control how an element is displayed on the page, while the 'position' property is used to control the element's position.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>.box {
+                    display: inline-block;
+                    position: relative;
+                    top: 20px;
+                    left: 20px;
+                  }</pre>
+                      <hr>
+
+                </div>
+                <div class="backcolor hidden" id="element5" >
+                  <h3>CSS Flexbox</h3>
+                  <p>Flexbox is a layout system in CSS that makes it easier to create flexible and responsive layouts.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>.container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+                  
+                  .item {
+                    flex: 1;
+                  }</pre>
+                      <hr>
+                      <h3>CSS Grid</h3>
+                  <p>CSS Grid is a layout system in CSS that allows you to create complex grid layouts with ease.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>.container {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                    grid-gap: 20px;
+                  }
+                  
+                  .item {
+                    grid-column: 1 / 3;
+                    grid-row: 2 / 4;
+                  }</pre>
+                      <hr>
+                      <h3>CSS Transitions and Animations</h3>
+                  <p>CSS transitions and animations are used to add motion and interactivity to elements on a web page.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>/* CSS transition */
+                    .box {
+                      transition: background-color 0.5s ease;
+                    }
+                    
+                    .box:hover {
+                      background-color: #ccc;
+                    }
+                    
+                    /* CSS animation */
+                    @keyframes slidein {
+                      from {
+                        transform: translateX(-100%);
+                      }
+                      to {
+                        transform: translateX(0);
+                      }
+                    }
+                    
+                    .box {
+                      animation: slidein 1s forwards;
+                    }</pre>
+                      <hr>
+                      <h3>CSS Media Queries</h3>
+                  <p>Media queries are used to apply different styles to a web page based on the screen size or other device characteristics.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>/* Apply styles for screens smaller than 768px */
+                    @media screen and (max-width: 768px) {
+                      .box {
+                        width: 100%;
+                      }
+                    }
+                    
+                    /* Apply styles for screens larger than 1200px */
+                    @media screen and (min-width: 1200px) {
+                      .box {
+                        width: 50%;
+                      }
+                    }</pre>
+                      <hr>
+                      <h3>CSS Variables</h3>
+                  <p>CSS variables allow you to define reusable values in your CSS code.</p>
+                  <hr>
+                  <h5>Example:</h5>
+                  <pre>:root {
+                    --primary-color: #007bff;
+                  }
+                  
+                  .button {
+                    background-color: var(--primary-color);
+                  }</pre>
+                      <hr>
+                </div>
+                <div class="backcolor hidden" id="element6" >
+                  <p>Responsive design is the process of designing and building websites that work on all devices and screen sizes. It allows web pages to adjust to different devices and screen sizes to give users the best possible experience.</p>
+                  <br>
+                  <p>To achieve responsive design, we use CSS media queries to apply styles based on the size of the device or screen. Media queries allow us to create different styles based on the width, height, orientation, and resolution of the screen.</p>
+                  <br>
+                  <p>Let's look at the steps involved in creating a responsive website using CSS.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 1: Set the viewport</h4>
+                  <br>
+                  <p>The viewport is the area of the web page that is visible to the user. To ensure that the website scales correctly on different devices, we need to set the viewport meta tag in the HTML document.</p>
+                  <hr>
+                  &lt;head&gt;<br>
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br>
+                  &lt;/head&gt;<br>
+                  <p>This meta tag tells the browser to set the width of the viewport to the device width and to set the initial zoom level to 1. This ensures that the website is displayed at the correct size on different devices.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 2: Use relative units for sizing</h4>
+                  <br>
+                  <p>To create a responsive design, we need to use relative units for sizing elements on the page. Relative units, such as ems or percentages, are based on the size of the parent element or the viewport, and they adjust automatically to the size of the device.</p>
+                  <br>
+                  <p>For example, instead of using pixels to set the width of an element, we can use percentages:</p>
+                  <hr>
+                  <pre>.box {
+                    width: 50%;
+                  }</pre>
+                  <p>This sets the width of the .box element to 50% of its parent element. If the parent element changes size, the .box element will adjust automatically.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 3: Use media queries</h4>
+                  <br>
+                  <p>Media queries allow us to apply different styles based on the size of the device or screen. We can use media queries to adjust the layout, font sizes, and other styles to create a responsive design.</p>
+                  <br>
+                  <p>Media queries are written in CSS and are placed inside the CSS file. They use the @media rule to define the conditions for the styles to be applied.</p>
+                  <hr>
+                  <pre>@media (max-width: 768px) {
+                    /* Styles for screens with a maximum width of 768px */
+                  }</pre>
+                  <p>In this example, the styles inside the media query will only be applied to screens with a maximum width of 768px. We can use different conditions, such as min-width, orientation, and resolution, to create more complex media queries.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 4: Use flexible layout</h4>
+                  <br>
+                  <p>A flexible layout allows the website to adjust to different screen sizes by using flexible units, such as percentages or ems, for layout elements. This ensures that the website looks good on different devices and screen sizes.</p>
+                  <br>
+                  <p>One common flexible layout is the grid system, which uses rows and columns to organize content on the page. CSS frameworks, such as Bootstrap and Foundation, provide pre-built grid systems that can be used to create responsive designs quickly.</p>
+                  <hr>
+                  &lt;div class="row"&gt;<br>
+                  &lt;div class="col-md-6"&gt;Column 1&lt;/div&gt;<br>
+                  &lt;div class="col-md-6"&gt;Column 2&lt;/div&gt;<br>
+                  &lt;/div&gt;<br>
+                  
+                  <p>In this example, the .row element creates a row that contains two columns, each with a width of 50%. The .col-md-6 class sets the width of each column to 50% for medium-sized screens.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 5: Use responsive images</h4>
+                  <br>
+                  <p>Images can be a challenge when designing for different screen sizes. Large images can slow down the website, and small images can look pixelated on larger screens.</p>
+                  <br>
+                  <p>To create responsive images, we can use the srcset and sizes attributes in the img tag. The srcset attribute allows us to provide different image sources for different screen sizes, and the sizes attribute tells the browser the size of the image container.</p>
+                  <hr>
+                  &lt;img src="small.jpg"
+                      srcset="small.jpg 320w,
+                              medium.jpg 768w,
+                              large.jpg 1200w"
+                      sizes="(max-width: 768px) 100vw,
+                              50vw"&gt;<br>
+                  
+                  <p>In this example, the srcset attribute provides three different image sources for three different screen sizes. The sizes attribute tells the browser that the image container is 100% of the viewport width for screens up to 768px and 50% of the viewport width for larger screens.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 6: Test the website on different devices</h4>
+                  <br>
+                  <p>Once we have created a responsive design, it is important to test the website on different devices to ensure that it works correctly. We can use browser developer tools or online testing tools, such as BrowserStack or CrossBrowserTesting, to test the website on different devices and screen sizes.</p>
+                  <hr>
+                  <hr>
+                  <h4>Conclusion:</h4>
+                   <p>Creating a responsive design using CSS requires using relative units for sizing, using media queries to apply styles based on screen size, using a flexible layout, and using responsive images. By following these steps and testing the website on different devices, we can create a website that works well on all devices and screen sizes.</p>   
+                  
+                  
+                </div>
+                <div class="backcolor hidden" id="element7" >
+                  <p>CSS Grid is a powerful layout system that allows us to create complex layouts with ease. It is a two-dimensional grid system that allows us to position and size elements in rows and columns.</p>
+                  <br>
+                  <p>CSS Grid consists of a parent element, called the grid container, and its child elements, called grid items. We can use CSS properties to define the size and position of the grid items within the grid container.</p>
+                  <br>
+                  <p>Let's look at the steps involved in creating a CSS Grid layout.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 1: Create a grid container</h4>
+                  <br>
+                  <p>To create a CSS Grid layout, we need to create a grid container. This is done by setting the display property of an element to grid.</p>
+                  <hr>
+                  <pre>.container {
+                    display: grid;
+                  }</pre>
+                  <p>In this example, the .container element is set to display: grid, making it a grid container.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 2: Define the grid structure</h4>
+                  <br>
+                  <p>The next step is to define the structure of the grid. This is done by setting the grid-template-columns and grid-template-rows properties of the grid container.</p>
+                  
+                  <hr>
+                  <pre>.container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto auto;
+                  }</pre>
+                  <p>In this example, the .container element has three columns of equal width (1fr) and two rows of auto height.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 3: Position grid items</h4>
+                  <br>
+                  <p>Once the grid structure is defined, we can position the grid items within the grid container using the grid-column and grid-row properties.</p>
+                  
+                  <hr>
+                  <pre>.item {
+                    grid-column: 1 / 3;
+                    grid-row: 1;
+                  }</pre>
+                  <p>In this example, the .item element is positioned in the first row (grid-row: 1) and spans two columns (grid-column: 1 / 3).</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 4: Use grid gaps</h4>
+                  <br>
+                  <p>Grid gaps allow us to add space between grid items and rows/columns. We can use the grid-column-gap and grid-row-gap properties to set the size of the gaps.</p>
+                  
+                  <hr>
+                  <pre>.container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto auto;
+                    grid-column-gap: 10px;
+                    grid-row-gap: 20px;
+                  }</pre>
+                  
+                  <p>In this example, the grid has a column gap of 10px and a row gap of 20px.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 5: Use grid lines</h4>
+                  <br>
+                  <p>Grid lines are imaginary lines that divide the grid into rows and columns. We can use them to position grid items more precisely.</p>
+                  
+                  <hr>
+                  <pre>.item {
+                    grid-column: 1 / span 2;
+                    grid-row: 1 / 3;
+                  }</pre>
+                  
+                  <p>In this example, the .item element starts at the first column (grid-column: 1) and spans two columns (span 2). It also starts at the first row (grid-row: 1) and spans two rows (span 2).</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 6: Use grid areas</h4>
+                  <br>
+                  <p>Grid areas allow us to name and reuse grid positions. We can use the grid-template-areas property to define named grid areas.</p>
+                  <hr>
+                  <pre>.container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: auto auto;
+                    grid-template-areas:
+                      "header header header"
+                      "sidebar main main"
+                      "footer footer footer";
+                  }
+                  
+                  .header {
+                    grid-area: header;
+                  }
+                  
+                  .sidebar {
+                    grid-area: sidebar;
+                  }
+                  
+                  .main {
+                    grid-area: main;
+                  }
+                  
+                  .footer {
+                    grid-area: footer;
+                  }</pre>
+                  <p>In this example, the .header element is assigned to the header grid area, the .sidebar element is assigned to the sidebar grid area, and so on.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 7: Use nested grids</h4>
+                  <br>
+                  <p>CSS Grid allows us to create nested grids within grid items. This can be useful for creating more complex layouts.</p>
+                  <hr>
+                  <pre>.container {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                  }
+                  
+                  .item {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+                  }</pre>
+                  <p>In this example, the .container element has two columns, and each .item element has two columns within it. This creates a nested grid within each item.</p>
+                  <hr>
+                  <hr>
+                  <h4>Step 8: Use responsive design</h4>
+                  <br>
+                  <p>As with any CSS layout, it's important to make it responsive to different screen sizes. This can be achieved with media queries and adjusting the grid structure accordingly.</p>
+                  <hr>
+                  <pre>@media (max-width: 768px) {
+                    .container {
+                      grid-template-columns: 1fr;
+                      grid-template-areas:
+                        "header"
+                        "main"
+                        "sidebar"
+                        "footer";
+                    }
+                  }</pre>
+                  <p>In this example, we have used a media query to adjust the grid structure for screens that are 768px or less. The grid is changed to a single column layout, and the grid areas are rearranged to make the layout more suitable for smaller screens.</p>
+                  <hr>
+                  <hr>
+                  <h4>Conclusion:</h4>
+                   <p>CSS Grid is a powerful layout system that allows us to create complex layouts with ease. By following the steps outlined above, we can create a grid layout, position grid items, use grid gaps and lines, use grid areas, and create nested grids. Additionally, we can make the layout responsive to different screen sizes using media queries.</p>   
+                  
+                </div>
+                
+            <script>
+              var currentElement = null;
+      
+              function toggleContent(id) {
+                var element = document.getElementById('element' + id.slice(-1));
+                if (currentElement !== null) {
+                  currentElement.classList.add("hidden");
+                }
+                element.classList.remove("hidden");
+                currentElement = element;
+              }
+
+              
+          </script>
+          <script src="assets/js/isotope.min.js"></script>
+          <script src="assets/js/owl-carousel.js"></script>
+          <script src="assets/js/custom.js"></script> 
+    <div class="footer">
+      <p>Copyright © 2023 SmartLearn. All Rights Reserved. 
+        </p>
+    </div>
+  </section>
+
+
+  </body>
+
+</html>

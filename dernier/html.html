@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <style>
+      .hidden {
+      display: none;
+      }
+      .backcolor{
+        background-color: rgba(117, 113, 113, 0.2);
+        color: white;
+      }
+      .backcolor *{
+        color: white;
+      }
+      
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Template Mo">
+    
+
+    <title>SmartLearn</title>
+
+  
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+  </head>
+
+<body>
+
+   
+
+  <!-- Sub Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <p>This is an educational <em>HTML CSS JAVASCRIPT</em> website.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <div class="right-icons">
+            <ul>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <nav class="main-nav">
+                      <!-- ***** Logo Start ***** -->
+                      <a href="index.html" class="logo">
+                        SmartLearn
+                      </a>
+                      <!-- ***** Logo End ***** -->
+                      <!-- ***** Menu Start ***** -->
+                      <ul class="nav">
+                          <li><a href="index.html" >Accueil</a></li>
+                          <li><a href="html.html"  class="active">HTML</a></li>
+                          <li><a href="csss.html">CSS</a></li>
+                          <li><a href="js.html">JAVA SCRIPT</a></li> 
+                          <li><a href="index.html">Contact Us</a></li> 
+                      </ul>        
+                      <a class='menu-trigger'>
+                          <span>Menu</span>
+                      </a>
+                      <!-- ***** Menu End ***** -->
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <section class="heading-page header-text" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Below are our available HTML courses.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="meetings-page" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="filters">
+                <ul>
+                  <li><a onclick="toggleContent('button0')">Creating an HTML Document</a></li>
+                  <li><a onclick="toggleContent('button1')">Head Section</a></li>
+                  <li><a onclick="toggleContent('button2')">Body Section</a></li>
+                  <li><a onclick="toggleContent('button3')">HTML Tags</a></li>
+                  <li><a onclick="toggleContent('button4')">Attributes</a></li>
+                  <li><a onclick="toggleContent('button5')">Comments</a></li>
+                  <li><a onclick="toggleContent('button6')">HTML Forms</a></li>
+                  <li><a onclick="toggleContent('button7')">HTML Semantic Elements</a></li>
+                  <li><a onclick="toggleContent('button8')">HTML5 Audio and Video</a></li>
+                  <li><a onclick="toggleContent('button9')">HTML Meta Tags</a></li>
+                </ul>
+              </div>
+            </div>
+            
+                <div class="backcolor" id="element0">
+                  <p>HTML (Hypertext Markup Language) is a language used to create web pages. It provides a structure to your content by using elements and attributes.</p>
+                  <p>To create an HTML document, you need to use a text editor. Open a new document and save it with the .html extension. The basic structure of an HTML document includes the following tags:</p>
+                  <hr>
+                  &lt;!DOCTYPE html&gt;<br>
+                  &lt;html&gt;<br>
+                  &lt;head&gt;<br>
+                  &lt;title&gt;Page Title&lt;/title&gt;<br>
+                  &lt;/head&gt;<br>
+                  &lt;body&gt;<br>
+
+                  &lt;/body&gt;<br>
+                  &lt;/html&gt;<br>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element1" >
+                  <p>The head section of an HTML document contains metadata such as the title, author, and description of the web page. The title tag is used to define the title of the page that appears in the browser tab.</p>
+                  <hr>
+                  &lt;head&gt;<br>
+                  &lt;title&gt;Page Title&lt;/title&gt;<br>
+                  &lt;meta name="description" content="Description of the web page"&gt;<br>
+                  &lt;/head&gt;<br>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element2">
+                  <p>The body section of an HTML document contains the content that is displayed on the web page. You can add text, images, links, and other elements to the body section.</p>
+                  <hr>
+                  &lt;body&gt;<br>
+                  &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+                  &lt;p&gt;Paragraph&lt;/p&gt;<br>
+                  &lt;img src="image.jpg" alt="Image"&gt;<br>
+                  &lt;a href="https://www.example.com/">Link&lt;/a&gt;<br>
+                  &lt;/body&gt;<br>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element3" >
+                  <p>HTML tags are used to define the structure and content of the web page. Here are some of the most commonly used HTML tags:</p>
+                  <hr>
+                  <ul>
+                    <li>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt; - Used to define headings.</li>
+                    <li>&lt;p&gt; - Used to define paragraphs.</li>
+                      <li>&lt;a&gt; - Used to define hyperlinks.</li>
+                      <li>&lt;img&gt; - Used to display images.</li>
+                      <li>&lt;ul&gt; - Used to create an unordered list.</li>
+                      <li>&lt;ol&gt; - Used to create an ordered list.</li>
+                      <li>&lt;li&gt; - Used to define list items.</li>
+                      <li>&lt;table&gt; - Used to create tables.</li>
+                      <li>&lt;tr&gt; - Used to define table rows.</li>
+                      <li>&lt;td&gt; - Used to define table data.</li>
+                  </ul>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element4" >
+                  <p>Attributes provide additional information about HTML elements. They are defined within the opening tag of an element. Here are some of the most commonly used attributes:</p>
+                  <hr>
+                      <li>'class' - Used to define a class for an element.</li>
+                      <li>'id' - Used to define a unique identifier for an element.</li>
+                      <li>'src' - Used to define the source of an image or media file.</li>
+                      <li>'href' - Used to define the URL of a hyperlink.</li>
+                      <li>'alt' - Used to define alternative text for an image.</li>
+                      <li>'style' - Used to define inline styles for an HTML element. This attribute is commonly used to apply CSS styles to a specific element.</li>
+                      <li>'title' - Used to define a title for an HTML element. This attribute is commonly used to provide additional information about an element when the user hovers over it.</li>
+                  <hr>
+                  <p>Here's an example of using these attributes together:</p>
+                  <br>
+                  &lt;a href="https://www.example.com" class="button" id="example-link" title="Visit Example"&gt;Example Website&lt;/a&gt;<br>
+
+                  &lt;img src="example-image.jpg" alt="Example Image" style="width: 100%;"&gt;<br>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element5" >
+                  <p>Comments can be added to an HTML document to provide notes for the developer. They are not visible on the web page. Comments are defined using the &lt;!-- --&gt; tag.</p>
+                  <hr>
+                  <p>&lt;!-- This is a comment --&gt;</p>
+                  
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element6" >
+                  <p>HTML forms are used to collect information from users. The most commonly used form elements are:</p>
+                  <hr>
+                      <li>&lt;form&gt; - Used to create a form.</li>
+                      <li>&lt;input&gt; - Used to create input fields.</li>
+                      <li>&lt;textarea&gt; - Used to create a text area.</li>
+                      <li>&lt;select&gt; - Used to create a dropdown list.</li>
+                      <li>&lt;option&gt; - Used to define options for a dropdown list.</li>
+                      <li>&lt;button&gt; - Used to create a button.</li>
+                      <li>&lt;label&gt; - Used to provide a label for an input field. The 'for' attribute of the label element should match the 'id' attribute of the input field.</li>
+                      <li>'type' - Used to define the type of input field. Common values include 'text', 'email', 'password', 'checkbox', 'radio', 'submit', and 'reset'.</li>
+                      <li>'name' - Used to define the name of the input field. This attribute is used to identify the field when the form is submitted.</li>
+                      <li>'value' - Used to define the value of the input field. This attribute is used to provide a default value for the field.</li>
+                      <li>'required' - Used to make an input field required. If this attribute is present, the user must enter a value in the field before the form can be submitted.</li>
+                  <hr>
+                  <p>Here is an example of an HTML form:</p>
+                  <br>
+                  &lt;form&gt;<br>
+                  &lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+                  &lt;input type="text" id="name" name="name" required&gt;<br>
+                  &lt;br&gt;<br>
+                  &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+                  &lt;input type="email" id="email" name="email" required&gt;<br>
+                  &lt;br&gt;<br>
+                  &lt;label for="password"&gt;Password:&lt;/label&gt;<br>
+                  &lt;input type="password" id="password" name="password" required&gt;<br>
+                  &lt;br&gt;<br>
+                  &lt;label for="gender"&gt;Gender:&lt;/label&gt;<br>
+                  &lt;input type="radio" id="male" name="gender" value="male"&gt;<br>
+                  &lt;label for="male"&gt;Male&lt;/label&gt;<br>
+                  &lt;input type="radio" id="female" name="gender" value="female"&gt;<br>
+                  &lt;label for="female"&gt;Female&lt;/label&gt;<br>
+                  &lt;br>
+                  &lt;label for="country"&gt;Country:&lt;/label&gt;<br>
+                  &lt;select id="country" name="country"&gt;<br>
+                  &lt;option value="usa"&gt;USA&lt;/option&gt;<br>
+                  &lt;option value="uk"&gt;UK&lt;/option&gt;<br>
+                  &lt;option value="canada"&gt;Canada&lt;/option&gt;<br>
+                  &lt;/select&gt;<br>
+                  &lt;br&gt;<br>
+                  &lt;button type="submit"&gt;Submit&lt;/button&gt;<br>
+                  &lt;/form&gt;<br>
+                  <hr>
+                  
+                </div>
+                <div class="backcolor hidden" id="element7" >
+                  <p>HTML5 introduced semantic elements that provide a meaning to the content of the web page. These elements make it easier for search engines and screen readers to understand the content. Here are some of the most commonly used semantic elements:</p>
+                  <hr>
+                      <li>&lt;header&gt; - Used to define the header of a web page or section.</li>
+                      <li>&lt;nav&gt; - Used to define the navigation section of a web page.</li>
+                      <li>&lt;main&gt; - Used to define the main content section of a web page.</li>
+                      <li>&lt;section&gt; - Used to define a section of the web page.</li>
+                      <li>&lt;article&gt; - Used to define an article or blog post.</li>
+                      <li>&lt;aside&gt; - Used to define a side section of the web page.</li>
+                      <li>&lt;footer&gt; - Used to define the footer of a web page or section.</li>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element8" >
+                  <p>HTML5 provides built-in support for playing audio and video files. You can use the <audio> and <video> tags to add audio and video files to your web page.</p>
+                  <hr>
+                  &lt;audio controls&gt;<br>
+                  &lt;source src="audio.mp3" type="audio/mpeg"&gt;<br>
+                    Your browser does not support the audio element. <br>
+                    &lt;/audio&gt;<br>
+                  
+                    &lt;video controls&gt;<br>
+                    &lt;source src="video.mp4" type="video/mp4"&gt;<br>
+                    Your browser does not support the video element. <br>
+                    &lt;/video&gt;<br>
+                  <hr>
+                </div>
+                <div class="backcolor hidden" id="element9" >
+                  <p>Meta tags provide information about the web page that is used by search engines and social media platforms. Here are some of the most commonly used meta tags:</p>
+                  <hr>
+                      <li>&lt;meta name="description" content="Description of the web page"&gt; - Used to define the description of the web page.</li>
+                      <li>&lt;meta name="keywords" content="Keywords"&gt; - Used to define the keywords of the web page.</li>
+                      <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; - Used to define the viewport of the web page for responsive design.</li>
+                  <hr>
+                  
+                </div>
+            <script>
+              var currentElement = null;
+      
+              function toggleContent(id) {
+                var element = document.getElementById('element' + id.slice(-1));
+                if (currentElement !== null) {
+                  currentElement.classList.add("hidden");
+                }
+                element.classList.remove("hidden");
+                currentElement = element;
+              }
+
+              
+          </script> 
+          <script src="assets/js/isotope.min.js"></script>
+          <script src="assets/js/owl-carousel.js"></script>
+          <script src="assets/js/custom.js"></script>
+    <div class="footer">
+      <p>Copyright © 2023 SmartLearn. All Rights Reserved. 
+        </p>
+    </div>
+  </section>
+  
+    
+  
+    
+    
+    
+    
+    
+    
+  
+
+  </body>
+
+</html>
